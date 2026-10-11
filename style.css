@@ -17,6 +17,38 @@ html, body {
 
 }
 
+.sidebuttons {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+    padding: 10px 30px;
+    align-items: center;
+}
+
+.spanish {
+    appearance: none;
+    -webkit-appearance: none;
+    border: none;
+    background: transparent;
+    color:#ffffff;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 20px;
+
+}
+
+.refspanish {
+    text-decoration: none;
+    color: white;
+}
+
+.spanish:hover{
+    text-decoration: underline;
+}
+
 .img-cnt {
     display: flex;
     align-items: center;
@@ -197,3 +229,4 @@ body {
 .main-content {
     flex: 1;
 }
+
