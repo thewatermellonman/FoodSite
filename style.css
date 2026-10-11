@@ -1,0 +1,183 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.top {
+    height: 70px;
+    width: 100%;
+    top: 0;
+    background-color: #2e8ddb;
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    z-index: 100;
+
+}
+
+.img-cnt {
+    display: flex;
+    align-items: center;
+}
+
+.img-btn {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.logo {
+    height: 50px;
+}
+
+
+.title {
+    color: #ffffff;
+    position: relative;
+    left: 10px;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    margin-top: 0px;
+    width: 100%
+}
+
+.topimg {
+    background-image: url(groceries.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overtext {
+    text-align: center;
+    align-content: 200px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    padding: 30px 50px;
+}
+
+.overtext h1 {
+    font-size: 5.25rem;
+}
+
+.overtext h3 {
+    font-size: 2rem;
+}
+
+.scuffcont {
+    display: flex;
+    justify-content: center;
+}
+
+.dailyfood {
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    grid-gap: 20px
+}
+
+.box{
+    padding: 20px;
+}
+
+.dailytext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dailytext h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #002646;
+    margin: 0;
+}
+
+.dailytext h3 {
+    text-align: center;
+    font-size: 22px;
+    color: #044a83;
+    margin: 0;
+}
+
+.dailybutton{
+    display: inline-block;
+    margin: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 12px 24px;
+    text-align: center;
+    background-color: #002646;
+    color: #8cc7f7;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: background-color 0.2s ease;
+}
+
+.dailybutton:hover {
+    background-color: #00182c;
+}
+
+.dailymenu {
+    width: 100%;
+}
+
+
+.site-footer {
+    background-color: #2e8ddb;
+    color: #ffffff;
+    padding: 60px 40px 30px 40px;
+}
+
+.footer-row {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-col h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.footer-col p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    color: #e0f2f1;
+}
+
+.footer-col {
+    flex: 2;
+    min-width: 250px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+}
