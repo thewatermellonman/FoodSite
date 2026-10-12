@@ -9,12 +9,17 @@ The different pages are built on different html documents
 
 ## Features
 -A home page
+
 -Buttons leading to different pages
+
 -A spanish option
 
 
+<br>
 The food order button currently doesn't work! 
 Since this site is public, I didn't make it work as I didn't
 want false orders.
+<br>
+<br>
 
 In the future I hop to add more of our services!
